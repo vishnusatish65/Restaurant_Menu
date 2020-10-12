@@ -86,4 +86,4 @@ flask run
 
 7.open the index.html file in the browser. you should see something like this.
 
-![Restaurant%20Menu%20aad6b85b25644dee93559815ac0e77a3/restaurant_menu_snapshot.png](Restaurant%20Menu%20aad6b85b25644dee93559815ac0e77a3/restaurant_menu_snapshot.png)
+![Restaurant%20Menu%20aad6b85b25644dee93559815ac0e77a3/restaurant_menu_snapshot.png](/restaurant_menu_snapshot.png)
