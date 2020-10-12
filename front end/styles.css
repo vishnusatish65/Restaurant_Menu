@@ -1,0 +1,155 @@
+/* category styles */
+button {
+    text-align: left;
+}
+search {
+    position: relative;
+    margin-left: 50px;
+}
+.navbar-expand-lg  {
+    position: absolute;
+    width: 53%;
+    margin-right:240px;
+    right: 55px;
+}
+
+.nav-item {
+    padding: 5px 0 0 0 ;
+}
+
+.category-list{
+  position: fixed;
+}
+.red {
+    background-color:#fff;
+    position: absolute;
+    right: 10px;
+    align-items: center;
+}
+.card {
+    margin: 10px;
+    width: auto;
+    
+}
+.container.items {
+    border: 20px solid;
+    text-align: center;
+    padding-right: 0;
+    align-items: stretch;
+}
+
+/* CheckBox Style */
+
+.switch {
+    position: relative;
+    display: inline-block;
+  }
+  .switch-input {
+    display: none;
+  }
+  .switch-label {
+    display: block;
+    width: 42px;
+    height: 10px;
+    text-indent: -150%;
+    clip: rect(0 0 0 0);
+    color: transparent;
+    user-select: none;
+  }
+  .switch-label::before,
+  .switch-label::after {
+    content: "Veg Only";
+    display: block;
+    position: absolute;
+    cursor: pointer;
+  }
+  .switch-label::before {
+    width: 100%;
+    height: 100%;
+    background-color: #dedede;
+    border-radius: 9999em;
+    -webkit-transition: background-color 0.25s ease;
+    transition: background-color 0.25s ease;
+  }
+  .switch-label::after {
+    top: 0;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
+    -webkit-transition: left 0.25s ease;
+    transition: left 0.25s ease;
+  }
+  .switch-input:checked + .switch-label::before {
+    background-color: #89c12d;
+  }
+  .switch-input:checked + .switch-label::after {
+    left: 25px;
+  }
+  
+.Form {
+    position: absolute;
+    right: 200px;
+    top: 5px;
+}
+
+/* card styles */
+.card{
+    left: -25px;
+    width: 900px;
+}
+.item-sequence{
+    color: white;
+}
+.availability{
+    position: absolute;
+    right: 5px;
+    color: white;
+}
+.card-text{
+  width: 500px;
+}
+.card-header-style {
+    height: 50px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color:#007bff;
+    padding-top: 12px;
+    padding-left: 15px;
+
+}
+
+.card-price {
+  position: absolute;
+  right: 20px;
+  top:80px;
+}
+/* button zomato and swiggy */
+.btn-swiggy {
+    background-color: #fc8019;
+}
+.btn-zomato {
+    position: absolute;
+    right:20px;
+    background-color:rgba(237,90,107);
+}
+
+.next {
+  position: relative;
+  margin-top: 10px;
+  margin-left:10px ;
+  width: 100px;
+}
+
+.previous {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100px;
+}
+
+.invisible{
+  visibility: hidden;
+}
